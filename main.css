@@ -1,0 +1,109 @@
+body {
+    background-image: url("https://images.pexels.com/photos/235734/pexels-photo-235734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: 100% 1600px;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.headerMain {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: 'lobster', cursive;
+    color: #77b798;
+}
+
+.persType {
+    font-family: 'aclonica', sans-serif;
+    color: #6b726c;
+}
+
+.cartoonThumbnail {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.descriptionCards {
+    text-align: center;
+    width: 100px;
+    justify-content: space-between;
+    flex-basis: 35%;
+    margin: 10px;
+    border: 1px solid whitesmoke;
+    padding: 7px;
+    background-color: palegreen;
+    opacity: 0.6;
+    color: olive;
+    font-family: 'work sans', sans-serif;
+    
+    
+}
+
+.containerImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    background-color: #a8c1b5;
+}
+
+.images {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin-left: 145px;
+    /* align-items: flex-end; */
+}
+
+.celebrity {
+    width: 450px;
+    justify-content: space-between;
+    flex-basis: 40%;
+    margin: 10px;
+}
+
+.headerMain h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.headerMain p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'work sans', sans-serif;
+    color: #275640;
+}
+
+.imagesHeader {
+    font-size: 40px;
+    font-family: "aclonica", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #77b798;
+    background-color: #676d6a;
+}
+
+footer {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+a {
+    color: #275640;
+    font-family: 'lobster', cursive;
+}
